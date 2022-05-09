@@ -11,12 +11,13 @@ This is a REST-API example built in Spring Boot with MVC architecture with prope
 7. @Service - used to mark the class as service which gets the request from controller class, serves the request and send back to controller.
 8. @Repository - used to mark the interface as repository which interacts with the database directly.
 9. @SpringBootTest - used to make the class perform testing operations with the help of @Test annotation.
+10. Mapping between two entities has been done with the help of @OneToMany and @ManyToOne annotation.
 
 
 #Execution steps -
 1. The web request comes from browser to the controller class which handles the request.
 2. Then this request goes to the service class which further performs the required operation.
-3. Service class makes use of repository class to perform crud operations as requested.
+3. Service class makes use of repository class to perform crud operations as requested by the user.
 
 **Executing test-cases**
 
