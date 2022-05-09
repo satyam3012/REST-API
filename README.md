@@ -19,6 +19,9 @@ This is a REST-API example built in Spring Boot with MVC architecture with prope
 3. Service class makes use of repository class to perform crud operations as requested.
 
 **Executing test-cases**
+
 4. Before deployment, testing operations are executed with the help of class annotated with @SpringBootTest which runs the test cases with the help of @MockBean and @Test annotation.
+
 5. @MockBean annotation helps in creating the mockito container which mocks the database i.e. request is not going to database everytime for testing purpose
+
 6. In this way, it is making the testing more fast and efficient.
